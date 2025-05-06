@@ -1,0 +1,12 @@
+name: apln552-surprisal-model
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pytorch
+  - tqdm
+  - pip
+  - pip:
+    - argparse
